@@ -8,7 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta6/testng-7.0.0-beta6-sources.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta6/testng-7.0.0-beta6.jar!/" />
     </SOURCES>
   </library>
 </component>
