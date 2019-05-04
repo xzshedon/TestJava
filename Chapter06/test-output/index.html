@@ -33,7 +33,7 @@
 
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
-			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+			<li class='waves-effect active'><a href='#!' view='test00-view' onclick="configureView(0);chartsView('test00');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
@@ -63,11 +63,11 @@
 		<!-- container -->
 		<div class='container'>
 
-<div id='test-view' class='view'>
+<div id='test00-view' class='view'>
 				
 	<section id='controls'>
 		<div class='controls grey lighten-4'>
-			<!-- test toggle -->
+			<!-- test00 toggle -->
 			<div class='chip transparent'>
 				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
 					<i class='material-icons'>warning</i> Status
@@ -79,7 +79,7 @@
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
-			<!-- test toggle -->
+			<!-- test00 toggle -->
 
 			<!-- category toggle -->
 			<!-- category toggle -->
@@ -93,7 +93,7 @@
 			<!-- clear filters -->
 
 			<!-- enable dashboard -->
-			<div id='toggle-test-view-charts' class='chip transparent'>
+			<div id='toggle-test00-view-charts' class='chip transparent'>
 				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
 					<i class='material-icons'>track_changes</i> Dashboard
 				</a>
@@ -116,7 +116,7 @@
 	</section>
 
 
-<div id='test-view-charts' class='subview-full'>
+<div id='test00-view-charts' class='subview-full'>
 	<div id='charts-row' class='row nm-v nm-h'>
 		<div class='col s12 m6 l6 np-h'>
 			<div class='card-panel nm-v'>
@@ -125,10 +125,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> test00(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> test00(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -155,22 +155,22 @@
 		
 		<div class='view-summary'>
 			<h5>Tests</h5>
-			<ul id='test-collection' class='test-collection'>
+			<ul id='test00-collection' class='test00-collection'>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
-					<div class='test-heading'>
-						<span class='test-name'>test1</span>
-						<span class='test-time'>Apr 29, 2019 07:52:08 AM</span>
-						<span class='test-status right fail'>fail</span>
+				<li class='test00 displayed active  fail' status='fail' bdd='false' test00-id='1'>
+					<div class='test00-heading'>
+						<span class='test00-name'>test1</span>
+						<span class='test00-time'>Apr 29, 2019 07:52:08 AM</span>
+						<span class='test00-status right fail'>fail</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
+					<div class='test00-content hide'>
+<div class='test00-time-info'>
 	<span class='label start-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label end-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+27ms</span>
 </div>
-	<div class='test-steps'>
+	<div class='test00-steps'>
 		<table class='bordered table-results'>
 			<thead>
 				<tr>
@@ -224,19 +224,19 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>logDemo</span>
-						<span class='test-time'>Apr 29, 2019 07:52:08 AM</span>
-						<span class='test-status right fail'>fail</span>
+				<li class='test00 displayed active  fail' status='fail' bdd='false' test00-id='2'>
+					<div class='test00-heading'>
+						<span class='test00-name'>logDemo</span>
+						<span class='test00-time'>Apr 29, 2019 07:52:08 AM</span>
+						<span class='test00-status right fail'>fail</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
+					<div class='test00-content hide'>
+<div class='test00-time-info'>
 	<span class='label start-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label end-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
-	<div class='test-steps'>
+	<div class='test00-steps'>
 		<table class='bordered table-results'>
 			<thead>
 				<tr>
@@ -289,19 +289,19 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>test2</span>
-						<span class='test-time'>Apr 29, 2019 07:52:08 AM</span>
-						<span class='test-status right pass'>pass</span>
+				<li class='test00 displayed active  pass' status='pass' bdd='false' test00-id='3'>
+					<div class='test00-heading'>
+						<span class='test00-name'>test2</span>
+						<span class='test00-time'>Apr 29, 2019 07:52:08 AM</span>
+						<span class='test00-status right pass'>pass</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
+					<div class='test00-content hide'>
+<div class='test00-time-info'>
 	<span class='label start-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label end-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
-	<div class='test-steps'>
+	<div class='test00-steps'>
 		<table class='bordered table-results'>
 			<thead>
 				<tr>
@@ -323,19 +323,19 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
-					<div class='test-heading'>
-						<span class='test-name'>test3</span>
-						<span class='test-time'>Apr 29, 2019 07:52:08 AM</span>
-						<span class='test-status right pass'>pass</span>
+				<li class='test00 displayed active  pass' status='pass' bdd='false' test00-id='4'>
+					<div class='test00-heading'>
+						<span class='test00-name'>test3</span>
+						<span class='test00-time'>Apr 29, 2019 07:52:08 AM</span>
+						<span class='test00-status right pass'>pass</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
+					<div class='test00-content hide'>
+<div class='test00-time-info'>
 	<span class='label start-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label end-time'>Apr 29, 2019 07:52:08 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
-	<div class='test-steps'>
+	<div class='test00-steps'>
 		<table class='bordered table-results'>
 			<thead>
 				<tr>
@@ -362,7 +362,7 @@
 
 	<div class='subview-right left'>
 		<div class='view-summary'>
-			<h5 class='test-name'></h5>
+			<h5 class='test00-name'></h5>
 
 			<div id='step-filters' class="right">
 				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
@@ -379,7 +379,7 @@
 	<!-- subview right -->
 
 </div>
-<!-- test view -->
+<!-- test00 view -->
 <!-- category view -->
 <div id='exception-view' class='view hide'>
 
@@ -424,7 +424,7 @@
                                         <tbody>
                                                     <tr>
                                                         <td>Apr 29, 2019 07:52:08 AM</td>
-                                                        <td class='linked' test-id='1'>test1</td>
+                                                        <td class='linked' test00-id='1'>test1</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [2] but found [1]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -482,7 +482,7 @@
                                         <tbody>
                                                     <tr>
                                                         <td>Apr 29, 2019 07:52:08 AM</td>
-                                                        <td class='linked' test-id='2'>logDemo</td>
+                                                        <td class='linked' test00-id='2'>logDemo</td>
                                                         <td><pre><pre>java.lang.RuntimeException: 自己的运行时异常
 	at com.tester.extend.TestNethodsDemo.logDemo(TestNethodsDemo.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

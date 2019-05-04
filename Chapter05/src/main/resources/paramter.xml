@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="paramter">
-    <test name="param">
+    <test00 name="param">
         <parameter name="name" value="hello"/>
         <parameter name="age" value="18"/>
         <classes>
             <class name="com.xzs.testng.paramter.ParamterTest"/>
         </classes>
-    </test>
+    </test00>
 </suite>

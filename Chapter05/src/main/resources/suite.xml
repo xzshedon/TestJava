@@ -3,18 +3,18 @@
 
 <suite name="taobao">
 
-    <test name="Login">
+    <test00 name="Login">
         <classes>
             <class name="com.xzs.testng.suite.SuiteConfig"/>
             <class name="com.xzs.testng.suite.LoginTest"/>
         </classes>
-    </test>
+    </test00>
 
-    <test name="Play">
+    <test00 name="Play">
         <classes>
             <class name="com.xzs.testng.suite.SuiteConfig"/>
             <class name="com.xzs.testng.suite.Paytest"/>
         </classes>
-    </test>
+    </test00>
 
 </suite>

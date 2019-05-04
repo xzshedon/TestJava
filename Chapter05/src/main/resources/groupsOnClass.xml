@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="haha">
-    <test name="all">
+    <test00 name="all">
         <classes>
             <class name="com.xzs.testng.groups.GroupsOnClass1" />
             <class name="com.xzs.testng.groups.GroupsOnClass2" />
             <class name="com.xzs.testng.groups.GroupsOnClass3" />
         </classes>
-    </test>
+    </test00>
 
-    <test name="onlyStu">
+    <test00 name="onlyStu">
         <groups>
             <run>
                 <include name="stu"/>
@@ -21,6 +21,6 @@
             <class name="com.xzs.testng.groups.GroupsOnClass2" />
             <class name="com.xzs.testng.groups.GroupsOnClass3" />
         </classes>
-    </test>
+    </test00>
 
 </suite>

@@ -30,7 +30,7 @@
 
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
-			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+			<li class='waves-effect active'><a href='#!' view='test00-view' onclick="configureView(0);chartsView('test00');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
@@ -60,11 +60,11 @@
 		<!-- container -->
 		<div class='container'>
 
-<div id='test-view' class='view'>
+<div id='test00-view' class='view'>
 				
 	<section id='controls'>
 		<div class='controls grey lighten-4'>
-			<!-- test toggle -->
+			<!-- test00 toggle -->
 			<div class='chip transparent'>
 				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
 					<i class='material-icons'>warning</i> Status
@@ -76,7 +76,7 @@
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
-			<!-- test toggle -->
+			<!-- test00 toggle -->
 
 			<!-- category toggle -->
 			<!-- category toggle -->
@@ -90,7 +90,7 @@
 			<!-- clear filters -->
 
 			<!-- enable dashboard -->
-			<div id='toggle-test-view-charts' class='chip transparent'>
+			<div id='toggle-test00-view-charts' class='chip transparent'>
 				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
 					<i class='material-icons'>track_changes</i> Dashboard
 				</a>
@@ -113,7 +113,7 @@
 	</section>
 
 
-<div id='test-view-charts' class='subview-full'>
+<div id='test00-view-charts' class='subview-full'>
 	<div id='charts-row' class='row nm-v nm-h'>
 		<div class='col s12 m6 l6 np-h'>
 			<div class='card-panel nm-v'>
@@ -122,10 +122,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> test00(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> test00(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -152,29 +152,29 @@
 		
 		<div class='view-summary'>
 			<h5>Tests</h5>
-			<ul id='test-collection' class='test-collection'>
+			<ul id='test00-collection' class='test00-collection'>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
-					<div class='test-heading'>
-						<span class='test-name'>接口套件</span>
-						<span class='test-time'>Apr 27, 2019 07:51:23 AM</span>
-						<span class='test-status right fail'>fail</span>
+				<li class='test00 displayed active has-leaf fail' status='fail' bdd='false' test00-id='1'>
+					<div class='test00-heading'>
+						<span class='test00-name'>接口套件</span>
+						<span class='test00-time'>Apr 27, 2019 07:51:23 AM</span>
+						<span class='test00-status right fail'>fail</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
+					<div class='test00-content hide'>
+<div class='test00-time-info'>
 	<span class='label start-time'>Apr 27, 2019 07:51:23 AM</span>
 	<span class='label end-time'>Apr 27, 2019 07:51:23 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+160ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1  fail' status='fail' test-id='2'>
+				<li class='node level-1  fail' status='fail' test00-id='2'>
 					<div class='collapsible-header'>
 						<div class='node-name'>测试模块</div>						
 						<span class='node-time'>Apr 27, 2019 07:51:23 AM</span>
 						<span class='node-duration'>0h 0m 0s+152ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test00-status right fail'>fail</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -197,12 +197,12 @@
 								</div>
 						</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-2 leaf fail' status='fail' test-id='3'>
+				<li class='node level-2 leaf fail' status='fail' test00-id='3'>
 					<div class='collapsible-header'>
 						<div class='node-name'>test1</div>						
 						<span class='node-time'>Apr 27, 2019 07:51:23 AM</span>
 						<span class='node-duration'>0h 0m 0s+21ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test00-status right fail'>fail</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -257,12 +257,12 @@
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='4'>
+				<li class='node level-2 leaf pass' status='pass' test00-id='4'>
 					<div class='collapsible-header'>
 						<div class='node-name'>test2</div>						
 						<span class='node-time'>Apr 27, 2019 07:51:23 AM</span>
 						<span class='node-duration'>0h 0m 0s+1ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test00-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -285,12 +285,12 @@
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='5'>
+				<li class='node level-2 leaf pass' status='pass' test00-id='5'>
 					<div class='collapsible-header'>
 						<div class='node-name'>test3</div>						
 						<span class='node-time'>Apr 27, 2019 07:51:23 AM</span>
 						<span class='node-duration'>0h 0m 0s+0ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test00-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -313,12 +313,12 @@
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf fail' status='fail' test-id='6'>
+				<li class='node level-2 leaf fail' status='fail' test00-id='6'>
 					<div class='collapsible-header'>
 						<div class='node-name'>logDemo</div>						
 						<span class='node-time'>Apr 27, 2019 07:51:23 AM</span>
 						<span class='node-duration'>0h 0m 0s+6ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test00-status right fail'>fail</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -384,7 +384,7 @@
 
 	<div class='subview-right left'>
 		<div class='view-summary'>
-			<h5 class='test-name'></h5>
+			<h5 class='test00-name'></h5>
 
 			<div id='step-filters' class="right">
 				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
@@ -401,7 +401,7 @@
 	<!-- subview right -->
 
 </div>
-<!-- test view -->
+<!-- test00 view -->
 <!-- category view -->
 <div id='exception-view' class='view hide'>
 
@@ -446,7 +446,7 @@
                                         <tbody>
                                                     <tr>
                                                         <td>Apr 27, 2019 07:51:23 AM</td>
-                                                        <td class='linked' test-id='3'>接口套件.测试模块.test1</td>
+                                                        <td class='linked' test00-id='3'>接口套件.测试模块.test1</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [2] but found [1]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -504,7 +504,7 @@
                                         <tbody>
                                                     <tr>
                                                         <td>Apr 27, 2019 07:51:23 AM</td>
-                                                        <td class='linked' test-id='6'>接口套件.测试模块.logDemo</td>
+                                                        <td class='linked' test00-id='6'>接口套件.测试模块.logDemo</td>
                                                         <td><pre><pre>java.lang.RuntimeException: 自己的运行时异常
 	at com.tester.extend.TestNethodsDemo.logDemo(TestNethodsDemo.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

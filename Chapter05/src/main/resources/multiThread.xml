@@ -13,15 +13,15 @@
     -->
 
 
-    <test name="demo1">
+    <test00 name="demo1">
         <classes>
             <class name="com.xzs.testng.multiThread.MultiThreadOnXml"/>
         </classes>
-    </test>
+    </test00>
 
-    <test name="demo2">
+    <test00 name="demo2">
         <classes>
             <class name="com.xzs.testng.multiThread.MultiThreadOnXml"/>
         </classes>
-    </test>
+    </test00>
 </suite>
